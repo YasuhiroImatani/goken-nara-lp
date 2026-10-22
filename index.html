@@ -10,6 +10,73 @@
 <meta property="og:description" content="奈良県の解体・とび・土工工事。許可番号取得済・一級とび技能士在籍。現地無料見積もり。">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ja_JP">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "豪建 奈良支社",
+  "description": "奈良県の解体工事・とび工事・土工工事専門。一級とび技能士在籍。無料現地見積もり対応。",
+  "telephone": "070-8511-1847",
+  "email": "tobi_goken@yahoo.co.jp",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "奈良県",
+    "addressCountry": "JP"
+  },
+  "areaServed": ["奈良市","大和郡山市","生駒市","橿原市","桜井市","天理市","大和高田市","葛城市","宇陀市","吉野郡"],
+  "serviceType": ["解体工事","とび工事","土工工事","足場工事","外構工事","建物撤去"],
+  "openingHours": "Mo-Sa 08:00-18:00",
+  "hasCredential": "兵庫県知事許可（般-7）第218971号"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "解体工事の費用はどれくらいかかりますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "建物の構造（木造・鉄骨・RC）・延床面積・立地条件などにより異なります。まずは無料の現地見積もりをご利用ください。概算であれば電話・メールでもお伝えできます。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "産業廃棄物の処理も対応できますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "はい、解体に伴う産業廃棄物の収集・運搬・処分についても対応可能です。処理業者との連携も含め、ワンストップでご対応します。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "足場だけの依頼も受けていますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "もちろん対応しております。外壁塗装・屋根工事の足場架設のみのご依頼も承ります。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "近隣への挨拶や騒音対策はしてもらえますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "着工前の近隣挨拶のご同行、防音・粉塵対策シートの設置を標準で行っております。ご安心ください。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "工事中の保険は加入していますか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "建設工事保険・賠償責任保険に加入しております。万一の際も対応できる体制を整えています。"
+      }
+    }
+  ]
+}
+</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -24,6 +91,8 @@
 body{font-family:var(--jp);color:var(--ink);background:var(--paper);line-height:1.7;font-size:16px}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* ─── HEADER ─── */
 .site-header{background:var(--ink);color:#fff;padding:12px 0}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px}
 .site-logo{display:flex;align-items:center;gap:12px}
@@ -33,6 +102,8 @@ a{color:inherit;text-decoration:none}
 .hdr-tel{text-align:right}
 .hdr-tel .num{font-family:var(--poster);font-size:22px;color:#FFD23F;letter-spacing:.04em}
 .hdr-tel small{display:block;font-size:11px;color:var(--sky-3)}
+
+/* ─── HERO ─── */
 .hero{background:linear-gradient(155deg,#0f1e2e 0%,#1d3a54 45%,#243b55 100%);color:#fff;padding:60px 0 54px;position:relative;overflow:hidden}
 .hero:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 75% 20%,rgba(217,119,6,.22),transparent 45%);pointer-events:none}
 .hero:after{content:"";position:absolute;bottom:-2px;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--amber),var(--amber-d))}
@@ -49,11 +120,15 @@ a{color:inherit;text-decoration:none}
 .btn-tel{background:#FFD23F;color:var(--ink)}
 .btn-line{background:#06C755;color:#fff}
 .btn-ghost{background:transparent;color:#fff;border:2px solid var(--sky-4)}
+
+/* ─── SECTIONS ─── */
 section{padding:56px 0}
 .kicker{font-family:var(--poster);color:var(--amber);font-size:14px;letter-spacing:.14em;text-transform:uppercase}
 h2.sec{font-size:clamp(24px,4.5vw,36px);margin:6px 0 8px}
 .sec-lead{color:var(--ink-2);max-width:680px;margin-bottom:28px;font-size:15px}
 .band{background:var(--sky-1);border-top:1px solid var(--sky-2);border-bottom:1px solid var(--sky-2)}
+
+/* ─── SERVICE GRID ─── */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(288px,1fr));gap:18px}
 .card{background:#fff;border:1px solid var(--sky-2);border-radius:12px;padding:24px;position:relative;transition:transform .15s,box-shadow .15s}
 .card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(21,40,60,.12)}
@@ -64,20 +139,28 @@ h2.sec{font-size:clamp(24px,4.5vw,36px);margin:6px 0 8px}
 .card p{color:var(--ink-2);font-size:14.5px;line-height:1.75}
 .card ul{margin-top:12px;padding-left:18px;color:var(--ink-2);font-size:14px}
 .card ul li{margin-bottom:4px}
+
+/* ─── CREDENTIALS ─── */
 .cred-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
 .cred{background:#fff;border:1px solid var(--sky-2);border-left:5px solid var(--amber);border-radius:8px;padding:16px}
 .cred .c-icon{font-size:28px;display:block;margin-bottom:6px}
 .cred b{display:block;font-size:15px;color:var(--ink);margin-bottom:4px}
 .cred p{color:var(--ink-2);font-size:13px;line-height:1.6}
+
+/* ─── STEPS ─── */
 .steps{counter-reset:s;display:grid;gap:12px}
 .step{background:#fff;border:1px solid var(--sky-2);border-radius:10px;padding:18px 20px 18px 64px;position:relative}
 .step:before{counter-increment:s;content:counter(s);position:absolute;left:16px;top:16px;width:34px;height:34px;background:var(--ink);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--poster);font-size:18px}
 .step b{display:block;font-size:16px;margin-bottom:4px}
 .step p{color:var(--ink-2);font-size:14px}
+
+/* ─── AREA ─── */
 .area-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
 .area-item{background:#fff;border:1px solid var(--sky-2);border-left:4px solid var(--amber);border-radius:8px;padding:14px 16px}
 .area-item b{font-size:15px;color:var(--ink)}
 .area-item p{color:var(--ink-2);font-size:13px;margin-top:3px}
+
+/* ─── FAQ ─── */
 .faq-list{display:grid;gap:14px;max-width:780px}
 .faq-item{background:#fff;border:1px solid var(--sky-2);border-radius:10px;overflow:hidden}
 .faq-item summary{padding:18px 20px;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;font-size:15px}
@@ -85,6 +168,8 @@ h2.sec{font-size:clamp(24px,4.5vw,36px);margin:6px 0 8px}
 .faq-item summary::after{content:"＋";font-family:var(--poster);font-size:20px;color:var(--amber);transition:transform .2s;flex-shrink:0}
 .faq-item[open] summary::after{transform:rotate(45deg)}
 .faq-body{padding:0 20px 18px;color:var(--ink-2);font-size:14.5px;line-height:1.8;border-top:1px solid var(--sky-2)}
+
+/* ─── CONTACT ─── */
 .contact-box{background:linear-gradient(135deg,var(--ink) 0%,#1d3a54 100%);color:#fff;border-radius:16px;padding:40px 36px}
 .contact-box h2{font-size:clamp(22px,4vw,32px);margin-bottom:8px}
 .contact-box p{color:var(--sky-2);margin-bottom:24px;font-size:15px}
@@ -94,6 +179,21 @@ h2.sec{font-size:clamp(24px,4.5vw,36px);margin:6px 0 8px}
 .c-method .c-val{font-family:var(--poster);font-size:24px;color:#FFD23F;letter-spacing:.04em;line-height:1.2}
 .c-method .c-note{font-size:12px;color:var(--sky-3);margin-top:6px}
 .contact-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+
+/* ─── WORKS SECTION ─── */
+.works-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;margin-top:8px}
+.work-card{background:#fff;border:1px solid var(--sky-2);border-radius:12px;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.work-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(21,40,60,.12)}
+.work-img{width:100%;height:200px;object-fit:cover;display:block;background:var(--sky-2)}
+.work-img-placeholder{width:100%;height:200px;background:linear-gradient(135deg,var(--sky-2) 0%,var(--sky-3) 100%);display:flex;align-items:center;justify-content:center;font-size:48px;color:var(--sky-4)}
+.work-body{padding:18px 20px}
+.work-tag{display:inline-block;background:var(--amber-l);color:var(--amber-d);font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;margin-bottom:8px}
+.work-body h3{font-size:16px;color:var(--ink);margin-bottom:6px}
+.work-body p{color:var(--ink-2);font-size:13.5px;line-height:1.7}
+.work-meta{display:flex;gap:12px;margin-top:10px;font-size:12.5px;color:var(--steel-l)}
+.work-meta span{display:flex;align-items:center;gap:4px}
+
+/* ─── ASBESTOS SECTION ─── */
 .asb-section{background:var(--amber-l);border-top:3px solid var(--amber);border-bottom:3px solid var(--amber)}
 .asb-alert{background:#fff;border:2px solid var(--amber);border-radius:10px;padding:18px 22px;margin-bottom:28px;display:flex;gap:14px;align-items:flex-start}
 .asb-alert .asb-icon{font-size:32px;flex-shrink:0;line-height:1}
@@ -112,6 +212,8 @@ h2.sec{font-size:clamp(24px,4.5vw,36px);margin:6px 0 8px}
 .asb-step p{color:var(--ink-2);font-size:12.5px;line-height:1.65}
 .asb-disclaimer{background:rgba(217,119,6,.08);border-left:4px solid var(--amber);border-radius:4px;padding:10px 16px;font-size:12.5px;color:var(--ink-2);margin-top:16px;line-height:1.7}
 .asb-cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+
+/* ─── FOOTER ─── */
 footer{background:var(--ink);color:var(--sky-3);padding:32px 0 22px;font-size:13px}
 footer .wrap{display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
 footer .f-logo{font-family:var(--poster);font-size:24px;color:#FFD23F;margin-bottom:6px}
@@ -119,9 +221,12 @@ footer .f-info{line-height:2}
 footer .f-links{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
 footer .f-links a{color:var(--sky-3)}
 .copy{text-align:center;margin-top:18px;padding-top:18px;border-top:1px solid rgba(255,255,255,.08);font-size:12px;color:var(--sky-4)}
+
+/* ─── TRUST BAR ─── */
 .trust-bar{background:var(--amber);color:#fff;padding:12px 0}
 .trust-bar .wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:16px 32px}
 .trust-bar span{font-weight:800;font-size:13.5px;display:flex;align-items:center;gap:6px}
+
 @media(max-width:640px){
   .site-header .wrap{flex-direction:column;text-align:center}
   footer .wrap{grid-template-columns:1fr;text-align:center}
@@ -133,6 +238,8 @@ footer .f-links a{color:var(--sky-3)}
 </style>
 </head>
 <body>
+
+<!-- ─── HEADER ─── -->
 <header class="site-header">
   <div class="wrap">
     <div class="site-logo">
@@ -148,6 +255,8 @@ footer .f-links a{color:var(--sky-3)}
     </div>
   </div>
 </header>
+
+<!-- ─── TRUST BAR ─── -->
 <div class="trust-bar">
   <div class="wrap">
     <span>🏗️ 解体工事</span>
@@ -157,6 +266,8 @@ footer .f-links a{color:var(--sky-3)}
     <span>📐 足場架設</span>
   </div>
 </div>
+
+<!-- ─── HERO ─── -->
 <section class="hero">
   <div class="wrap">
     <span class="eyebrow">奈良県 全域対応</span>
@@ -176,74 +287,323 @@ footer .f-links a{color:var(--sky-3)}
     </div>
   </div>
 </section>
+
+<!-- ─── SERVICES ─── -->
 <section>
   <div class="wrap">
     <div class="kicker">SERVICES</div>
     <h2 class="sec">対応工事・サービス</h2>
     <p class="sec-lead">解体・とび・土工の各専門工事を自社施工。下請け一本でコストを抑えながら、品質を落としません。</p>
     <div class="grid">
-      <div class="card featured"><div class="tag">主力工事</div><h3><span class="ic">🏚️</span>解体工事</h3><p>木造・鉄骨・RC造の建物解体。内装解体・部分解体にも対応。</p><ul><li>戸建て住宅・店舗・倉庫の解体</li><li>ブロック塀・基礎撤去</li><li>内装解体（スケルトン工事）</li><li>産業廃棄物の収集・運搬</li></ul></div>
-      <div class="card featured"><div class="tag">主力工事</div><h3><span class="ic">⚙️</span>とび工事（鳶工事一式）</h3><p>一級とび技能士が手掛ける高所作業・足場工事。安全基準を厳守。</p><ul><li>外壁・屋根工事用 足場架設</li><li>仮設足場の組立・解体</li><li>重量物の吊り込み・設置</li><li>高所作業・鉄骨組立</li></ul></div>
-      <div class="card"><h3><span class="ic">🪨</span>土工工事</h3><p>掘削・盛土・整地など、土木工事の基礎となる土工をしっかり対応します。</p><ul><li>掘削・残土処理</li><li>盛土・整地</li><li>砕石敷き・転圧</li><li>外構下地工事</li></ul></div>
-      <div class="card"><h3><span class="ic">🔧</span>解体前コンサルティング</h3><p>「何から始めればいい？」という段階からご相談ください。</p><ul><li>解体工事届出のご説明</li><li>アスベスト事前調査の案内</li><li>隣地境界・越境確認</li></ul></div>
-      <div class="card"><h3><span class="ic">🏗️</span>新築・リフォーム付帯工事</h3><p>建設会社様・工務店様からの下請けも歓迎。</p><ul><li>新築工事の仮設足場</li><li>リフォーム前の内装解体</li><li>基礎工事の掘削・埋め戻し</li></ul></div>
-      <div class="card"><h3><span class="ic">♻️</span>産業廃棄物処理</h3><p>解体・工事に伴う廃材・産業廃棄物の適切な処理と搬出。</p><ul><li>廃材・廃棄物の搬出・運搬</li><li>処分業者との連携・マニフェスト管理</li><li>廃プラ・金属類の分別</li></ul></div>
+
+      <div class="card featured">
+        <div class="tag">主力工事</div>
+        <h3><span class="ic">🏚️</span>解体工事</h3>
+        <p>木造・鉄骨・RC造の建物解体。内装解体・部分解体にも対応。適切な廃棄物処理と近隣への配慮を徹底します。</p>
+        <ul>
+          <li>戸建て住宅・店舗・倉庫の解体</li>
+          <li>ブロック塀・基礎撤去</li>
+          <li>内装解体（スケルトン工事）</li>
+          <li>産業廃棄物の収集・運搬</li>
+        </ul>
+      </div>
+
+      <div class="card featured">
+        <div class="tag">主力工事</div>
+        <h3><span class="ic">⚙️</span>とび工事（鳶工事一式）</h3>
+        <p>一級とび技能士が手掛ける高所作業・足場工事。安全基準を厳守し、工期を守ります。</p>
+        <ul>
+          <li>外壁・屋根工事用 足場架設</li>
+          <li>仮設足場の組立・解体</li>
+          <li>重量物の吊り込み・設置</li>
+          <li>高所作業・鉄骨組立</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3><span class="ic">🪨</span>土工工事</h3>
+        <p>掘削・盛土・整地など、土木工事の基礎となる土工をしっかり対応します。</p>
+        <ul>
+          <li>掘削・残土処理</li>
+          <li>盛土・整地</li>
+          <li>砕石敷き・転圧</li>
+          <li>外構下地工事</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3><span class="ic">🔧</span>解体前コンサルティング</h3>
+        <p>「何から始めればいい？」という段階からご相談ください。行政手続きの流れや解体後の活用方法もご提案します。</p>
+        <ul>
+          <li>解体工事届出のご説明</li>
+          <li>アスベスト事前調査の案内</li>
+          <li>隣地境界・越境確認</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3><span class="ic">🏗️</span>新築・リフォーム付帯工事</h3>
+        <p>建設会社様・工務店様からの下請けも歓迎。仮設足場・土工・解体を一括でお任せいただけます。</p>
+        <ul>
+          <li>新築工事の仮設足場</li>
+          <li>リフォーム前の内装解体</li>
+          <li>基礎工事の掘削・埋め戻し</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3><span class="ic">♻️</span>産業廃棄物処理</h3>
+        <p>解体・工事に伴う廃材・産業廃棄物の適切な処理と搬出。許可業者との連携でコンプライアンスを確保します。</p>
+        <ul>
+          <li>廃材・廃棄物の搬出・運搬</li>
+          <li>処分業者との連携・マニフェスト管理</li>
+          <li>廃プラ・金属類の分別</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 </section>
+
+<!-- ─── WORKS ─── -->
+<section class="band">
+  <div class="wrap">
+    <div class="kicker">WORKS</div>
+    <h2 class="sec">施工事例</h2>
+    <p class="sec-lead">奈良県内での実際の施工事例をご紹介します。解体・足場・土工など幅広い工種に対応しています。</p>
+    <div class="works-grid">
+
+      <div class="work-card">
+        <div class="work-img-placeholder">🏚️</div>
+        <div class="work-body">
+          <span class="work-tag">解体工事</span>
+          <h3>木造2階建て住宅 解体工事</h3>
+          <p>築40年・延床面積約120㎡の木造住宅解体。近隣への騒音・粉塵対策を徹底しながら、3日間で安全に施工完了。</p>
+          <div class="work-meta">
+            <span>📍 奈良市</span>
+            <span>🏠 木造2階建て</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-img-placeholder">⚙️</div>
+        <div class="work-body">
+          <span class="work-tag">足場工事</span>
+          <h3>外壁塗装用 足場架設工事</h3>
+          <p>2階建て住宅の外壁塗装に伴う仮設足場の架設・解体。1日で架設完了、塗装業者様との工程を円滑に調整しました。</p>
+          <div class="work-meta">
+            <span>📍 大和郡山市</span>
+            <span>🏗️ 足場架設</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-img-placeholder">🪨</div>
+        <div class="work-body">
+          <span class="work-tag">土工工事</span>
+          <h3>新築基礎工事 掘削・残土処理</h3>
+          <p>新築住宅の基礎工事に伴う掘削・残土処理。建設会社様の工程に合わせ、迅速・丁寧に対応しました。</p>
+          <div class="work-meta">
+            <span>📍 生駒市</span>
+            <span>🚜 掘削・整地</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-img-placeholder">🔧</div>
+        <div class="work-body">
+          <span class="work-tag">解体工事</span>
+          <h3>店舗内装 スケルトン解体</h3>
+          <p>テナント退去に伴う店舗内装の全解体（スケルトン工事）。廃材の適正処理・マニフェスト発行まで一式対応。</p>
+          <div class="work-meta">
+            <span>📍 橿原市</span>
+            <span>🏪 内装解体</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-img-placeholder">🏗️</div>
+        <div class="work-body">
+          <span class="work-tag">とび工事</span>
+          <h3>鉄骨造倉庫 解体・撤去工事</h3>
+          <p>鉄骨造200㎡倉庫の解体工事。重機搬入経路の確保から廃棄物の搬出まで、工場の操業に影響しないよう段取りしました。</p>
+          <div class="work-meta">
+            <span>📍 天理市</span>
+            <span>🏭 鉄骨造</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="work-card">
+        <div class="work-img-placeholder">♻️</div>
+        <div class="work-body">
+          <span class="work-tag">解体＋産廃処理</span>
+          <h3>ブロック塀・基礎撤去工事</h3>
+          <p>道路拡幅に伴うブロック塀と基礎の撤去。行政手続きの確認から施工・残土処分まで一括対応しました。</p>
+          <div class="work-meta">
+            <span>📍 桜井市</span>
+            <span>🧱 ブロック塀</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p style="margin-top:20px;font-size:13px;color:var(--ink-2)">※ 写真は順次掲載予定です。施工実績についてはお気軽にお問い合わせください。</p>
+  </div>
+</section>
+
+<!-- ─── ASBESTOS ─── -->
 <section class="asb-section">
   <div class="wrap">
     <div class="kicker">ASBESTOS SURVEY</div>
     <h2 class="sec">アスベスト（石綿）調査のご相談</h2>
     <p class="sec-lead">解体・改修前の事前調査は法律で義務付けられています。「どこに頼めばいい？」という段階からお気軽にご相談ください。</p>
+
     <div class="asb-alert">
       <div class="asb-icon">⚠️</div>
       <div class="asb-alert-body">
         <b>【法改正】2022年4月より、解体・改修前のアスベスト事前調査が義務化されました</b>
-        <p>大気汚染防止法の改正により、延床面積 <strong>80㎡以上</strong> の建物を解体・改修する際は、施工前に有資格者によるアスベスト含有調査と届出が必要です。</p>
+        <p>大気汚染防止法の改正により、延床面積 <strong>80㎡以上</strong> の建物を解体・改修する際は、施工前に有資格者（建築物石綿含有建材調査者）によるアスベスト含有調査と届出が必要です。調査なしで着工すると法令違反となります。「アスベストが入っているかわからない」「どこに頼めばいいかわからない」という場合も、まずは豪建 奈良支社へご相談ください。</p>
       </div>
     </div>
+
+    <h3 style="font-size:18px;margin-bottom:16px;color:var(--ink)">豪建 奈良支社でできること</h3>
     <div class="asb-cards">
-      <div class="asb-card"><h4><span class="asb-ci">📋</span>調査の必要性を一緒に確認</h4><p>建物の築年数・面積・用途をヒアリングし、アスベスト調査が必要かどうかを整理します。</p></div>
-      <div class="asb-card"><h4><span class="asb-ci">🔗</span>有資格調査機関へのご紹介・手配</h4><p>建築物石綿含有建材調査者が在籍する専門機関をご紹介・ご手配します。</p></div>
-      <div class="asb-card"><h4><span class="asb-ci">🏗️</span>調査結果をふまえた解体計画</h4><p>調査報告書をもとに、アスベスト含有部材の事前除去が必要かを確認。ワンストップでご提案します。</p></div>
-      <div class="asb-card"><h4><span class="asb-ci">📝</span>行政への届出サポート</h4><p>解体工事にあたって必要な行政手続きの流れをご説明。書類準備のサポートも承ります。</p></div>
+      <div class="asb-card">
+        <h4><span class="asb-ci">📋</span>調査の必要性を一緒に確認</h4>
+        <p>建物の築年数・面積・用途をヒアリングし、アスベスト調査が必要かどうかを整理します。「調査が必要かどうかわからない」という段階からご相談ください。</p>
+      </div>
+      <div class="asb-card">
+        <h4><span class="asb-ci">🔗</span>有資格調査機関へのご紹介・手配</h4>
+        <p>建築物石綿含有建材調査者が在籍する専門機関をご紹介・ご手配します。採取した検体の分析も含め、スムーズに対応できるようサポートします。</p>
+      </div>
+      <div class="asb-card">
+        <h4><span class="asb-ci">🏗️</span>調査結果をふまえた解体計画</h4>
+        <p>調査報告書をもとに、アスベスト含有部材の事前除去が必要かを確認。除去工事が必要な場合も対応できる業者と連携し、解体工事をワンストップでご提案します。</p>
+      </div>
+      <div class="asb-card">
+        <h4><span class="asb-ci">📝</span>行政への届出サポート</h4>
+        <p>解体工事にあたって必要な行政手続き（特定建設作業届出・石綿含有建材届出等）の流れをご説明。書類準備のサポートも承ります。</p>
+      </div>
     </div>
+
+    <h3 style="font-size:18px;margin-bottom:24px;color:var(--ink)">アスベスト調査から解体までの流れ</h3>
+    <div class="asb-flow">
+      <div class="asb-step">
+        <div class="asb-step-num">1</div>
+        <b>無料相談</b>
+        <p>LINE・電話でご連絡ください。建物の情報をヒアリングし、調査の要否を確認します。</p>
+      </div>
+      <div class="asb-step">
+        <div class="asb-step-num">2</div>
+        <b>現地確認・専門機関手配</b>
+        <p>必要に応じて現地を確認。有資格調査機関を手配し、日程調整をお手伝いします。</p>
+      </div>
+      <div class="asb-step">
+        <div class="asb-step-num">3</div>
+        <b>調査・報告書取得</b>
+        <p>専門機関が現地で検体採取・分析を実施。調査報告書を取得します（通常5〜10日）。</p>
+      </div>
+      <div class="asb-step">
+        <div class="asb-step-num">4</div>
+        <b>解体工事へ</b>
+        <p>報告書をもとに解体計画を確定。除去工事が必要な場合も連携業者と対応します。</p>
+      </div>
+    </div>
+
     <div class="asb-disclaimer">
-      ※ 豪建 奈良支社は、アスベスト調査の相談窓口・調査機関への手配を承っています。分析・調査の実施は、提携する有資格専門機関が行います。
+      ※ 豪建 奈良支社は、アスベスト調査の相談窓口・調査機関への手配を承っています。分析・調査の実施は、提携する有資格専門機関が行います。<br>
+      ※ 除去工事が必要な場合は、石綿取扱い作業従事者特別教育を受けた専門業者と連携して対応します。
     </div>
+
     <div class="asb-cta-row">
-      <a href="https://lin.ee/603MesB" class="btn btn-line">📱 LINEで相談する（無料）</a>
+      <a href="https://lin.ee/603MesB" class="btn btn-line" target="_blank" rel="noopener">📱 LINEで相談する（無料）</a>
       <a href="tel:07085111847" class="btn btn-tel">📞 070-8511-1847</a>
     </div>
   </div>
 </section>
+
+<!-- ─── CREDENTIALS ─── -->
 <section class="band">
   <div class="wrap">
     <div class="kicker">CREDENTIALS</div>
     <h2 class="sec">選ばれる理由・資格・許可</h2>
+    <p class="sec-lead">豪建は許可・資格・経験が揃った専門業者です。安心してお任せください。</p>
     <div class="cred-grid">
-      <div class="cred"><span class="c-icon">🏛️</span><b>建設業許可取得済み</b><p>兵庫県知事許可（般-7）第218971号。鳶土工工事業・解体工事業の許可を受けた適法な業者です。</p></div>
-      <div class="cred"><span class="c-icon">👷</span><b>一級とび技能士</b><p>国家資格「一級とび技能士」在籍。高所作業・足場の専門知識と技術を証明する最高位の資格です。</p></div>
-      <div class="cred"><span class="c-icon">🔖</span><b>登録鳶・土工基幹技能士</b><p>国土交通大臣登録の基幹技能士資格。施工管理・安全管理のプロが現場を監督します。</p></div>
-      <div class="cred"><span class="c-icon">📐</span><b>二級建築施工管理技士</b><p>建築工事全体を管理できる国家資格。工程・品質・安全を統括管理します。</p></div>
-      <div class="cred"><span class="c-icon">🛡️</span><b>工事保険加入</b><p>建設工事保険・賠償責任保険に加入。万一の事故にも対応できる体制で施工します。</p></div>
-      <div class="cred"><span class="c-icon">🤝</span><b>奈良支社 直営対応</b><p>奈良支社所長・今谷康弘が担当。地元密着で迅速な現地確認・見積もりに対応します。</p></div>
+
+      <div class="cred">
+        <span class="c-icon">🏛️</span>
+        <b>建設業許可取得済み</b>
+        <p>兵庫県知事許可（般-7）第218971号。鳶土工工事業・解体工事業の許可を受けた適法な業者です。</p>
+      </div>
+
+      <div class="cred">
+        <span class="c-icon">👷</span>
+        <b>一級とび技能士</b>
+        <p>国家資格「一級とび技能士」在籍。高所作業・足場の専門知識と技術を証明する最高位の資格です。</p>
+      </div>
+
+      <div class="cred">
+        <span class="c-icon">🔖</span>
+        <b>登録鳶・土工基幹技能士</b>
+        <p>国土交通大臣登録の基幹技能士資格。施工管理・安全管理のプロが現場を監督します。</p>
+      </div>
+
+      <div class="cred">
+        <span class="c-icon">📐</span>
+        <b>二級建築施工管理技士</b>
+        <p>建築工事全体を管理できる国家資格。解体から足場まで、工程・品質・安全を統括管理します。</p>
+      </div>
+
+      <div class="cred">
+        <span class="c-icon">🛡️</span>
+        <b>工事保険加入</b>
+        <p>建設工事保険・賠償責任保険に加入。万一の事故にも対応できる体制で施工します。</p>
+      </div>
+
+      <div class="cred">
+        <span class="c-icon">🤝</span>
+        <b>奈良支社 直営対応</b>
+        <p>奈良支社所長・今谷康弘が担当。地元密着で迅速な現地確認・見積もりに対応します。</p>
+      </div>
+
     </div>
   </div>
 </section>
+
+<!-- ─── FLOW ─── -->
 <section>
   <div class="wrap">
     <div class="two">
       <div>
         <div class="kicker">FLOW</div>
         <h2 class="sec">ご依頼の流れ</h2>
+        <p class="sec-lead">お問い合わせから施工完了まで、丁寧にサポートします。</p>
         <div class="steps">
-          <div class="step"><b>お問い合わせ（電話・メール）</b><p>解体・とび工事の内容をざっくりお聞かせください。概算金額もお伝えできます。</p></div>
-          <div class="step"><b>無料 現地調査・見積もり</b><p>奈良支社スタッフが現地を確認し、詳細な見積もりをご提出します。もちろん無料。</p></div>
-          <div class="step"><b>ご契約・近隣挨拶</b><p>内容・金額にご納得いただいてからご契約。着工前に近隣へのご挨拶も行います。</p></div>
-          <div class="step"><b>施工・廃材処理</b><p>安全第一で施工。産業廃棄物は適正に処理し、マニフェストを発行します。</p></div>
-          <div class="step"><b>完了確認・引き渡し</b><p>施工後にお客様と一緒に確認。ご満足いただければ完了です。</p></div>
+          <div class="step">
+            <b>お問い合わせ（電話・メール）</b>
+            <p>解体・とび工事の内容をざっくりお聞かせください。概算金額もお伝えできます。</p>
+          </div>
+          <div class="step">
+            <b>無料 現地調査・見積もり</b>
+            <p>奈良支社スタッフが現地を確認し、詳細な見積もりをご提出します。もちろん無料。</p>
+          </div>
+          <div class="step">
+            <b>ご契約・近隣挨拶</b>
+            <p>内容・金額にご納得いただいてからご契約。着工前に近隣へのご挨拶も行います。</p>
+          </div>
+          <div class="step">
+            <b>施工・廃材処理</b>
+            <p>安全第一で施工。産業廃棄物は適正に処理し、マニフェストを発行します。</p>
+          </div>
+          <div class="step">
+            <b>完了確認・引き渡し</b>
+            <p>施工後にお客様と一緒に確認。ご満足いただければ完了です。</p>
+          </div>
         </div>
       </div>
       <div>
@@ -266,28 +626,72 @@ footer .f-links a{color:var(--sky-3)}
     </div>
   </div>
 </section>
+
+<!-- ─── FAQ ─── -->
 <section class="band">
   <div class="wrap">
     <div class="kicker">FAQ</div>
     <h2 class="sec">よくあるご質問</h2>
     <div class="faq-list">
-      <details class="faq-item"><summary>解体工事の費用はどれくらいかかりますか？</summary><div class="faq-body">建物の構造（木造・鉄骨・RC）・延床面積・立地条件などにより異なります。まずは無料の現地見積もりをご利用ください。電話・メールでの概算もお気軽にどうぞ。</div></details>
-      <details class="faq-item"><summary>産業廃棄物の処理も対応できますか？</summary><div class="faq-body">はい、解体に伴う産業廃棄物の収集・運搬・処分の手配まで対応可能です。処理業者との連携・マニフェスト管理を含め、ワンストップでご対応します。</div></details>
-      <details class="faq-item"><summary>足場だけの依頼も受けてもらえますか？</summary><div class="faq-body">もちろん対応します。外壁塗装・屋根工事の足場架設のみのご依頼も承ります。建設会社様・工務店様からのご依頼も歓迎です。</div></details>
-      <details class="faq-item"><summary>近隣への挨拶や騒音・粉塵対策はしてもらえますか？</summary><div class="faq-body">着工前の近隣挨拶のご同行、防音・防塵シートの設置を標準で行っております。</div></details>
-      <details class="faq-item"><summary>工事中の保険はありますか？</summary><div class="faq-body">建設工事保険・賠償責任保険に加入しています。万一の際も対応できる体制を整えておりますのでご安心ください。</div></details>
+
+      <details class="faq-item">
+        <summary>解体工事の費用はどれくらいかかりますか？</summary>
+        <div class="faq-body">建物の構造（木造・鉄骨・RC）・延床面積・立地条件などにより異なります。まずは無料の現地見積もりをご利用ください。電話・メールでの概算もお気軽にどうぞ。</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>産業廃棄物の処理も対応できますか？</summary>
+        <div class="faq-body">はい、解体に伴う産業廃棄物の収集・運搬・処分の手配まで対応可能です。処理業者との連携・マニフェスト管理を含め、ワンストップでご対応します。</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>足場だけの依頼も受けてもらえますか？</summary>
+        <div class="faq-body">もちろん対応します。外壁塗装・屋根工事の足場架設のみのご依頼も承ります。建設会社様・工務店様からのご依頼も歓迎です。</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>近隣への挨拶や騒音・粉塵対策はしてもらえますか？</summary>
+        <div class="faq-body">着工前の近隣挨拶のご同行、防音・防塵シートの設置を標準で行っております。ご近所トラブルが起きないよう丁寧に対応します。</div>
+      </details>
+
+      <details class="faq-item">
+        <summary>工事中の保険はありますか？</summary>
+        <div class="faq-body">建設工事保険・賠償責任保険に加入しています。万一の際も対応できる体制を整えておりますのでご安心ください。</div>
+      </details>
+
     </div>
   </div>
 </section>
+
+<!-- ─── CONTACT ─── -->
 <section id="contact">
   <div class="wrap">
     <div class="contact-box">
       <h2>お気軽にご相談ください</h2>
       <p>現地調査・お見積もりは無料です。「何を頼めばいいかわからない」という段階でも大丈夫です。</p>
       <div class="contact-methods">
-        <div class="c-method"><div class="c-label">📞 電話（代表直通）</div><div class="c-val">070-8511-1847</div><div class="c-note">平日・土曜 8:00〜18:00</div></div>
-        <div class="c-method"><div class="c-label">✉️ メール</div><div class="c-val" style="font-size:16px;margin-top:4px">tobi_goken@yahoo.co.jp</div><div class="c-note">24時間受付・翌営業日以内に返信</div></div>
-        <div class="c-method"><div class="c-label">🏢 奈良支社 担当</div><div class="c-val" style="font-size:16px;margin-top:4px">今谷 康弘</div><div class="c-note">奈良支社所長 / 現地対応</div></div>
+        <div class="c-method">
+          <div class="c-label">📞 電話（代表直通）</div>
+          <div class="c-val">070-8511-1847</div>
+          <div class="c-note">平日・土曜 8:00〜18:00</div>
+        </div>
+        <div class="c-method">
+          <div class="c-label">✉️ メール</div>
+          <div class="c-val" style="font-size:16px;margin-top:4px">tobi_goken@yahoo.co.jp</div>
+          <div class="c-note">24時間受付・翌営業日以内に返信</div>
+        </div>
+        <div class="c-method">
+          <div class="c-label">🏢 奈良支社 担当</div>
+          <div class="c-val" style="font-size:16px;margin-top:4px">今谷 康弘</div>
+          <div class="c-note">奈良支社所長 / 現地対応</div>
+        </div>
+      </div>
+      <div class="contact-methods" style="margin-top:20px">
+        <div class="c-method">
+          <div class="c-label">💬 LINE（写真・現地相談）</div>
+          <div class="c-val" style="font-size:16px;margin-top:4px">LINEで気軽に相談</div>
+          <div class="c-note">写真を送るだけで概算をお伝えできます</div>
+        </div>
       </div>
       <div class="contact-cta">
         <a href="https://lin.ee/603MesB" class="btn btn-line">💬 LINE で相談する</a>
@@ -297,6 +701,8 @@ footer .f-links a{color:var(--sky-3)}
     </div>
   </div>
 </section>
+
+<!-- ─── FOOTER ─── -->
 <footer>
   <div class="wrap">
     <div>
@@ -309,11 +715,13 @@ footer .f-links a{color:var(--sky-3)}
     </div>
     <div class="f-links">
       <a href="#contact">お問い合わせ</a>
+      <a href="#" onclick="return false">プライバシーポリシー</a>
     </div>
   </div>
   <div class="wrap">
     <p class="copy">© 2026 豪建 奈良支社 All Rights Reserved.</p>
   </div>
 </footer>
+
 </body>
 </html>
